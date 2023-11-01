@@ -1,7 +1,47 @@
 /* Use this file to store your useful variables */
 /* This could be colors, fonts, or padding sizes! */
 
+
 :root {
-  --color-primary: #7be447;
-  --color-secondary: #1f1f1f;
+  --color-primary: #000000;
+  --color-secondary: #FFFFFF;
+  --bg-color: #08211C;
+  --btn-color: #0F6A7A;
+
+  --font-outfit: 'Outfit', Helvetica, sans-serif;
+  --font-roboto: 'Roboto', Arial, sans-serif;
 }
+
+/* Icon links:
+
+SALE/DISCOUNT:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+<span class="material-symbols-outlined">
+shoppingmode
+</span>
+
+DONE CHECKOUT:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+<span class="material-symbols-outlined">
+done
+</span>
+
+*/
