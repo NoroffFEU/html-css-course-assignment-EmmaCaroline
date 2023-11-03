@@ -29,20 +29,24 @@
     height: 1.8rem;
 }
 
+.material-symbols-outlined a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
 .desk-navpages {
     display: none;
 }
 
 .mobile-navpages {
-    display: flex;
+    border-top: 2px solid var(--bg-color);
     font-family: var(--font-outfit);
     font-size: 0.85rem;
     font-weight: 400;
     text-transform: uppercase;
-    color: var(--color-primary);
     text-shadow: 0.5px 0.5px black;
     letter-spacing: 0.05em;
-    border-top: 2px solid var(--bg-color);
 }
 
 .mobile-navpages ul {
@@ -56,6 +60,7 @@
 
 .mobile-navpages a {
     text-decoration: none;
+    color: var(--color-primary);
     padding-left: 0.23rem;
     padding-right: 0.23rem;
 }
@@ -113,21 +118,12 @@ h1, h2 {
     vertical-align: center;
     position: absolute;
     top: 250px;
-    width: 100%
+    width: 100%;
 }
 
 .bestsellers {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
     background-color: aqua;
 }
-
-.bestsellers ul {
-    display: flex;
-    list-style-type: none;
-    padding-top: 10rem;
-  }
 
 .bestsellers h2 {
     font-size: 0.85rem;
@@ -136,10 +132,21 @@ h1, h2 {
     text-align: center;
     object-fit: contain;
     background-color: blueviolet;
+    margin: 0;
+    padding: 0;
 }
 
+.product-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100;
+}
 
-
+.product-img-container img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
@@ -150,6 +157,11 @@ h1, h2 {
         grid-column: all;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .logo {
+        width: 9rem;
+        height: fit-content;
     }
 
     .desk-navpages {
@@ -171,11 +183,15 @@ h1, h2 {
     .desk-navpages a {
         text-decoration: none;
         color: var(--color-primary);
-        padding: 2rem;
+        padding: 1.6rem;
     }
     
     .desk-navpages li:nth-child(3) a {
         color: red;
+    }
+
+    .material-symbols-outlined a:hover {
+        color: var(--btn-color);
     }
 
     .mobile-navpages {
@@ -188,7 +204,7 @@ h1, h2 {
         background-repeat: no-repeat;
         width: 100%;
         height: 0;
-        padding-top: 49.09%; /* (img-height / img-width * container-width) */ /* (853 / 1280 * 100) */;
+        padding-top: 49.09%; 
         position: relative;
     }
 
