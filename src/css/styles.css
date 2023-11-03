@@ -34,6 +34,7 @@
 }
 
 .mobile-navpages {
+    display: flex;
     font-family: var(--font-outfit);
     font-size: 0.85rem;
     font-weight: 400;
@@ -123,6 +124,7 @@ h1, h2 {
 }
 
 .bestsellers ul {
+    display: flex;
     list-style-type: none;
     padding-top: 10rem;
   }

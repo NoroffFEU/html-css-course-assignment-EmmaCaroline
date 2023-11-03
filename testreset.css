@@ -1,10 +1,12 @@
+/* Old reset css file, for viewing and copy code
+
 *, *:before, *:after {
     box-sizing: inherit;
   }
   
   html {
     display: grid;
-    gap: 5rem;   /*change if needed, for how long the page is I think */
+    gap: 5rem; 
     grid-template-areas:
       "logo icons"
       "nav-pages nav-pages"
@@ -23,3 +25,5 @@
     margin: 0px;
     padding: 0px;
   }
+
+  */
