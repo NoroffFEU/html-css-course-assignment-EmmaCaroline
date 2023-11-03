@@ -2,23 +2,9 @@
   box-sizing: inherit;
 }
 
-html {
-  display: grid;
-  gap: 5rem;   /*change if needed, for how long the page is I think */
-  grid-template-areas:
-    "logo icons"
-    "nav-pages nav-pages"
-    "bannertext bannertext"
-    "hero hero"
-    "bestsell bestsell"
-    "learn learn"
-    "winter winter"
-    "footer footer";
-  font-size: 100%;
-  box-sizing: border-box;
-} 
-
 body {
+  display: grid;
+  grid-template-columns: 1fr;
   min-height: 100vh;
   margin: 0px;
   padding: 0px;
