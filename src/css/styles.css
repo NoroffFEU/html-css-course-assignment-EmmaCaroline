@@ -2,7 +2,7 @@
 @import url("./_reset.css");
 @import url("./_variables.css");
 
-
+/* INDEX PAGE, AND GENERAL STYLE FOR HEADER AND FOOTER: */
 
 .top-nav {
     display: flex;
@@ -17,7 +17,7 @@
     left: 0;
     right: 0;
     background-color: #ffffff;
-    z-index: 100;
+    z-index: 10;
 }
 
 .logo {
@@ -34,7 +34,7 @@
     'opsz' 24;
     width: 10.5rem;
     height: 1.8rem;
-    /*padding-right: 0.4rem;*/
+    padding-right: 0.4rem;
     
 }
 
@@ -71,8 +71,6 @@
 .mobile-navpages a {
     text-decoration: none;
     color: var(--color-primary);
-    /*padding-left: 0.23rem; */
-    /*padding-right: 0.23rem;*/
 }
 
 .mobile-navpages li:nth-child(3) a{
@@ -99,7 +97,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
-    padding-top: 110.46%; /* (img-height / img-width * container-width) */ /* (853 / 1280 * 100) */;
+    padding-top: 110.46%; /* (img-height / img-width * container-width) */
     position: relative;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.35);
     text-align: center;
@@ -145,7 +143,7 @@ h2 {
 button {
     border-radius: 0.375rem;
     background-color: var(--btn-color);
-    color: var(--color-secondary); /*fjern når alle linker er på plass*/
+    color: var(--color-secondary); /*fjern når alle linker er på plass, for må ha farge på a i stedet da*/
     font-size: 0.65rem;
     text-transform: uppercase;
     font-family: var(--font-roboto);
@@ -186,8 +184,7 @@ button a {
     object-fit: contain;
     margin-left: 3rem;
     margin-right: 3rem;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 2rem;
 }
 
 .product-img-wrapper {
@@ -218,10 +215,6 @@ button a {
     color: grey;
 }
 
-.product-img-wrapper .material-symbols-outlined {
-    font-size: 1rem; 
-}
-
 .learn-more {
     background-image: url("../../images/nature_backgrounds/forest.jpg");
     background-size: cover;
@@ -229,7 +222,6 @@ button a {
     position: relative;
     padding-bottom: 3.5rem;
     padding-top: 3.5rem;
-
 }
 
 .learn-more h2 {
@@ -295,9 +287,8 @@ button a {
     top: 15%; 
     left: 50%;
     transform: translate(-50%, -50%); 
-    width:100%;
+    width: 100%;
     text-align: center; 
-    /*background: rgba(255, 255, 255, 0.7); Add a semi-transparent background */
     font-size: 1.25rem; 
     font-family: var(--font-outfit);
     color: var(--color-primary);
@@ -339,28 +330,260 @@ footer {
     padding-right: 2.2rem;
 
 }
-
-.footer-img {
-    background-color: var(--bg-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
   
 .image {
     filter: invert(100%);
     width: 5rem;
     height: fit-content; 
     padding-bottom: 1rem;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
 }
 
 
+.info-part .info-desk {
+    display: none;
+}
+
+.info-part h2 {
+    font-weight: 300;
+    margin: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.info-part a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+
+.rainimg-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 3rem;
+}
+
+.rainjacket-img {
+    background-image: url("../../images/webshop_info_images/rainjackets.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 12rem;
+    width: 18.5rem;
+    border-radius: 0.8rem;
+}
+
+.rain-text {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.softjacket-img {
+    background-image: url("../../images/webshop_info_images/softshell.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 12rem;
+    width: 19.5rem;
+    border-radius: 0.8rem;
+}
+
+.discount {
+    color: red;
+}
+
+.form-container {
+    background-color: #ffffff; 
+    font-family: var(--font-roboto);
+    font-size: 0.7rem;
+    color: var(--color-primary);
+  }
+  
+  .form-header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .delivery-options, .personal-info, .payment-options, .form-inputs {
+    padding: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .price {
+    float: right;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #888888;
+    background-color: #f0f0f0; 
+    margin-bottom: 10px;
+    font-family: var(--font-roboto);
+    font-size: 0.7rem;
+    color: var(--color-primary);
+  }
+
+  input[type="text"]:focus {
+    outline-color: var(--logo-color);
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:hover, input[type="radio"]:hover {
+    cursor: text;
+  }
+  
+  input[type="text"]:active, input[type="radio"]:active {
+    cursor: text;
+  }
+  
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #000000;
+  }
+
+  .chosen-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 260px;
+  }
+  
+  .chosen-container img {
+    width: 10.3rem;
+    height: 10.4rem;
+  }
+
+  .chosen-container .text {
+    padding-left: 10px;
+  }
+
+  .chosen-container .text p {
+    margin: 0; 
+    padding: 10px;
+    padding-bottom: 1rem;
+  }
+
+  .productname-header {
+    font-size: 0.87rem;
+  }
+
+  .product-color-size {
+    font-size: 0.6rem;
+    color: #8A8A8A;
+    line-height: 0;
+  }
+
+  .stock {
+    font-size: 0.6rem;
+    color: #078A70;
+  }
+
+  .price {
+    font-size: 0.87rem;
+    font-weight: 400;
+  }
+
+  .header-checkout h2 {
+    text-align: left;
+    margin-left: 1rem;
+    font-weight: 300;
+  }
+
+  .summary-ship, .summary-total {
+    margin: 2rem;
+    font-family: var(--font-roboto);
+    font-size: 0.7rem;
+    color: var(--color-primary);
+  }
+
+  .price-ship, .price-total {
+    float: right;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  .checkout-text h2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  .checkout-text {
+    margin-bottom: 2rem;
+  }
+
+  .productpage-text {
+    display: flex;
+    justify-content: left;
+    margin-left: 3rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 3rem;
+  }
+
+  .color-price, .productpage {
+    font-family: var(--font-roboto);
+    font-size: 0.7rem;
+    color: var(--color-primary);
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .price-rainjacket {
+    float: right;
+  }
+
+  .productpage {
+    margin-bottom: 2rem;
+  }
+
+  .on-the-way {
+    display: block;
+    text-align: center;
+    font-family: var(--font-roboto);
+    font-size: 0.7rem;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  
+
+
  @media screen and (min-width: 992px) {
+
 
     .top-nav {
         display: flex;
@@ -444,7 +667,6 @@ footer {
     }
 
     .herobanner h2 {
-        /*font-size: 1.87rem;*/
         top: 300px;
     }
 
@@ -467,11 +689,12 @@ footer {
         flex-direction: row;
         align-items: center;
         margin-bottom: 3rem;
+        flex-wrap: wrap;
     }
 
     .product-img-wrapper {
-        flex-basis: 33.33%;
-        padding: 1rem;
+        flex-basis: calc(33.33% - 1rem);
+        padding: 0.5rem;
     }
 
     .learn-more {
@@ -538,5 +761,66 @@ footer {
     }
     
 
+    .info-part .info-desk {
+        display: block;
+        color: #4A4A4A;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        /*style more when more content is in, so I now margins and paddings to put*/
+    }
+
+    .info-part h2 {
+        /*style more when more content is in, so I now margins and paddings to put*/
+    }
+
+        
+    .rainimg-text-container {
+        flex-direction: row-reverse; 
+        margin: 0;
+        margin-top: 2rem;
+        padding-bottom: 3rem;
+        border-bottom: 0.12rem solid var(--bg-color);
+        padding-right: 10rem;
+        padding-left: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    .rain-text {
+        flex: 1; 
+        padding-right: 5rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .productname-header {
+        font-size: 1.25rem;
+        font-weight: 500;
+      }
+    
+      .product-color-size {
+        font-size: 1.1rem;
+      }
+    
+      .stock {
+        font-size: 1.1rem;
+      }
+    
+      .price {
+        font-size: 1rem;
+      }
+
+      .continue-btn {
+        justify-content: left;
+        margin-left: 2rem;
+      }
+
+      .checkout-text h2 {
+        font-size: 1.8rem;
+      }
+
+      .productpage {
+        margin-right: 30rem;
+      }
 
  }
