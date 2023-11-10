@@ -2,8 +2,6 @@
 @import url("./reset.css");
 @import url("./variables.css");
 
-/* INDEX PAGE, AND GENERAL STYLE FOR HEADER AND FOOTER: */
-
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -34,8 +32,6 @@
     'opsz' 24;
     width: 10.5rem;
     height: 1.8rem;
-    padding-right: 0.4rem;
-    
 }
 
 .material-symbols-outlined a {
@@ -65,7 +61,7 @@
     align-items: center;
     list-style-type: none;
     margin: 0;
-    padding: 1.3rem;
+    padding: 1.4rem;
 }
 
 .mobile-navpages a {
@@ -143,7 +139,7 @@ h2 {
 button {
     border-radius: 0.375rem;
     background-color: var(--btn-color);
-    color: var(--color-secondary); /*fjern når alle linker er på plass, for må ha farge på a i stedet da*/
+    color: var(--color-secondary); 
     font-size: 0.65rem;
     text-transform: uppercase;
     font-family: var(--font-roboto);
@@ -193,7 +189,6 @@ button a {
     text-align: left;
     line-height: 0;
     margin-bottom: 1rem;
-    
 }
 
 .product-img-wrapper img {
@@ -328,7 +323,6 @@ footer {
     color: var(--color-secondary);
     text-align: center;
     padding-right: 2.2rem;
-
 }
   
 .image {
@@ -340,7 +334,6 @@ footer {
     margin-right: auto; 
     display: block;
 }
-
 
 .info-part .info-desk {
     display: none;
@@ -359,7 +352,7 @@ footer {
 }
 
 
-.rainimg-text-container {
+.shop-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -379,7 +372,7 @@ footer {
     border-radius: 0.8rem;
 }
 
-.rain-text {
+.shop-text {
     font-size: 0.7rem;
     font-weight: 400;
     text-align: left;
@@ -411,6 +404,7 @@ footer {
     color: #ffffff;
     padding: 10px;
     margin: 10px 0;
+    text-align: center;
   }
 
   .delivery-options, .personal-info, .payment-options, .form-inputs {
@@ -544,29 +538,60 @@ footer {
     margin-bottom: 2rem;
   }
 
-  .productpage-text {
-    display: flex;
-    justify-content: left;
+  .product-info-section {
     margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .productpage-text {
     font-size: 0.8rem;
     font-weight: 300;
     margin-top: 3rem;
+    line-height: 0;
+    color: var(--color-primary);
+    font-weight: 400;
+  }
+
+  .productpage-text h2 {
+    text-align: left;
+  }
+
+  .color-price {
+    margin-bottom: 1rem;
   }
 
   .color-price, .productpage {
     font-family: var(--font-roboto);
     font-size: 0.7rem;
     color: var(--color-primary);
-    margin-left: 3rem;
-    margin-right: 3rem;
+    font-weight: 400;
+    line-height: 1rem;
   }
 
   .price-rainjacket {
     float: right;
+    font-size: 1rem;
   }
 
+  .product-img-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: auto;
+    object-fit: contain;
+    margin-left: 3rem;
+    margin-right: 3rem; 
+}
+
+.product-img-container2 img {
+    max-width: 100%;
+    height: auto; 
+}
+
   .productpage {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .on-the-way {
@@ -579,15 +604,10 @@ footer {
     margin-top: 3rem;
   }
 
-  
-
-
  @media screen and (min-width: 992px) {
-
 
     .top-nav {
         display: flex;
-        grid-column: all;
         justify-content: space-between;
         align-items: center;
         padding-top: 0.5rem;
@@ -609,7 +629,6 @@ footer {
     .desk-navpages ul {
         display: flex;
         list-style-type: none;
-
     }
 
     .desk-navpages a {
@@ -767,15 +786,9 @@ footer {
         font-size: 1rem;
         font-weight: 400;
         text-align: center;
-        /*style more when more content is in, so I now margins and paddings to put*/
     }
-
-    .info-part h2 {
-        /*style more when more content is in, so I now margins and paddings to put*/
-    }
-
         
-    .rainimg-text-container {
+    .shop-container {
         flex-direction: row-reverse; 
         margin: 0;
         margin-top: 2rem;
@@ -786,41 +799,96 @@ footer {
         margin-bottom: 5rem;
     }
 
-    .rain-text {
+    .shop-text {
         flex: 1; 
         padding-right: 5rem;
         font-size: 1rem;
         font-weight: 400;
     }
 
+    .product-img-container2 {
+        flex-direction: row;
+    }
+
+    .product-img-container2 img {
+        width: 30%;
+        margin-left: 8rem;
+        margin-right: 2rem;
+    }
+
+    .product-info-section {
+        margin-left: 11rem;
+    }
+
+    .product-info-section .productpage {
+        margin-left: 0;
+    }
+
+    .color-price, .productpage {
+        margin-right: 11rem;
+        font-size: 1rem;
+    }
+
+    .price-rainjacket {
+        font-size: 1.5rem;
+    }
+
+    .productpage {
+        margin-left: 2rem;
+    }
+
+    .color-rainjacket {
+        color: grey;
+    }
+
+    .btn-prod-align .btn {
+        justify-content: right;
+        margin-right: 12rem;
+    }
+
+
     .productname-header {
         font-size: 1.25rem;
         font-weight: 500;
-      }
+    }
     
-      .product-color-size {
+    .product-color-size {
         font-size: 1.1rem;
-      }
+    }
     
-      .stock {
+    .stock {
         font-size: 1.1rem;
-      }
+    }
     
-      .price {
+    .price {
         font-size: 1rem;
-      }
+    }
 
-      .continue-btn {
+    .btn-check-align .btn {
         justify-content: left;
-        margin-left: 2rem;
-      }
+    }
 
-      .checkout-text h2 {
-        font-size: 1.8rem;
-      }
+    .checkout-text h2 {
+        margin-left: 0; 
+        font-size: 1.75rem;
+    }
 
-      .productpage {
-        margin-right: 30rem;
-      }
+    .header-checkout, .chosen-container, .summary-ship, .summary-total, .btn-check-align, .checkout-text, .form-container {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
 
+    .price-ship, .price-total {
+        margin-right: 1rem;
+    }
+
+    .summary-ship, .summary-total {
+        font-size: 1rem;
+    }
+
+    .form-header {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        letter-spacing: 0.2rem;
+    }
  }
