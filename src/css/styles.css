@@ -367,8 +367,8 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 12rem;
-    width: 18.5rem;
+    height: 9.3rem;
+    width: 14rem;
     border-radius: 0.8rem;
 }
 
@@ -383,8 +383,8 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 12rem;
-    width: 19.5rem;
+    height: 9rem;
+    width: 14rem;
     border-radius: 0.8rem;
 }
 
@@ -397,30 +397,30 @@ footer {
     font-family: var(--font-roboto);
     font-size: 0.7rem;
     color: var(--color-primary);
-  }
+}
   
-  .form-header {
+.form-header {
     background-color: #000000;
     color: #ffffff;
     padding: 10px;
     margin: 10px 0;
     text-align: center;
-  }
+}
 
-  .delivery-options, .personal-info, .payment-options, .form-inputs {
+.delivery-options, .personal-info, .payment-options, .form-inputs {
     padding: 20px;
     margin-right: 0.5rem;
-  }
+}
   
-  input[type="radio"] {
+input[type="radio"] {
     margin-right: 5px;
-  }
+}
   
-  .price {
+.price {
     float: right;
-  }
+}
   
-  input[type="text"] {
+input[type="text"] {
     width: 100%;
     padding: 5px;
     border: 1px solid #888888;
@@ -429,151 +429,151 @@ footer {
     font-family: var(--font-roboto);
     font-size: 0.7rem;
     color: var(--color-primary);
-  }
+}
 
-  input[type="text"]:focus {
+input[type="text"]:focus {
     outline-color: var(--logo-color);
-  }
+}
   
-  .full-width {
+.full-width {
     width: 100%;
     margin-bottom: 10px;
-  }
+}
   
-  input[type="text"]:hover, input[type="radio"]:hover {
+input[type="text"]:hover, input[type="radio"]:hover {
     cursor: text;
-  }
+}
   
-  input[type="text"]:active, input[type="radio"]:active {
+input[type="text"]:active, input[type="radio"]:active {
     cursor: text;
-  }
+}
   
-  input[type="radio"] {
+input[type="radio"] {
     width: 20px;
     height: 20px;
     border: 2px solid #000000;
     border-radius: 50%;
     cursor: pointer;
     vertical-align: middle;
-  }
+}
   
-  input[type="radio"]:checked {
+input[type="radio"]:checked {
     background-color: #000000;
-  }
+}
 
-  .chosen-container {
+.chosen-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 260px;
-  }
+}
   
-  .chosen-container img {
+.chosen-container img {
     width: 10.3rem;
     height: 10.4rem;
-  }
+}
 
-  .chosen-container .text {
+.chosen-container .text {
     padding-left: 10px;
-  }
+}
 
-  .chosen-container .text p {
+.chosen-container .text p {
     margin: 0; 
     padding: 10px;
     padding-bottom: 1rem;
-  }
+}
 
-  .productname-header {
+.productname-header {
     font-size: 0.87rem;
-  }
+}
 
-  .product-color-size {
+.product-color-size {
     font-size: 0.6rem;
     color: #8A8A8A;
     line-height: 0;
-  }
+}
 
-  .stock {
+.stock {
     font-size: 0.6rem;
     color: #078A70;
-  }
+}
 
-  .price {
+.price {
     font-size: 0.87rem;
     font-weight: 400;
-  }
+}
 
-  .header-checkout h2 {
+.header-checkout h2 {
     text-align: left;
     margin-left: 1rem;
     font-weight: 300;
-  }
+}
 
-  .summary-ship, .summary-total {
+.summary-ship, .summary-total {
     margin: 2rem;
     font-family: var(--font-roboto);
     font-size: 0.7rem;
     color: var(--color-primary);
-  }
+}
 
-  .price-ship, .price-total {
+.price-ship, .price-total {
     float: right;
-  }
+}
 
-  .btn {
+.btn {
     display: flex;
     justify-content: center;
     margin-bottom: 4rem;
-  }
+}
 
-  .checkout-text h2 {
+.checkout-text h2 {
     display: flex;
     justify-content: left;
     margin-left: 2rem;
     font-size: 0.8rem;
     font-weight: 300;
-  }
+}
 
-  .checkout-text {
+.checkout-text {
     margin-bottom: 2rem;
-  }
+}
 
-  .product-info-section {
+.product-info-section {
     margin-left: 3rem;
     margin-right: 3rem;
-  }
+}
 
-  .productpage-text {
+.productpage-text {
     font-size: 0.8rem;
     font-weight: 300;
     margin-top: 3rem;
     line-height: 0;
     color: var(--color-primary);
     font-weight: 400;
-  }
+}
 
-  .productpage-text h2 {
+.productpage-text h2 {
     text-align: left;
-  }
+}
 
-  .color-price {
+.color-price {
     margin-bottom: 1rem;
-  }
+}
 
-  .color-price, .productpage {
+.color-price, .productpage {
     font-family: var(--font-roboto);
     font-size: 0.7rem;
     color: var(--color-primary);
     font-weight: 400;
     line-height: 1rem;
-  }
+}
 
-  .price-rainjacket {
+.price-rainjacket {
     float: right;
     font-size: 1rem;
-  }
+}
 
-  .product-img-container2 {
+.product-img-container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -590,11 +590,11 @@ footer {
     height: auto; 
 }
 
-  .productpage {
+.productpage {
     margin-bottom: 1rem;
-  }
+}
 
-  .on-the-way {
+.on-the-way {
     display: block;
     text-align: center;
     font-family: var(--font-roboto);
@@ -602,7 +602,115 @@ footer {
     color: var(--color-primary);
     margin-bottom: 3rem;
     margin-top: 3rem;
-  }
+}
+
+.logo-mountain {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-mountain img {
+    max-width: 25%;
+    height: auto;
+}
+
+.about-us-info {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-bg-image {
+    background-image: url("../../images/nature_backgrounds/trees_rain.jpg");
+    background-size: cover;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    border-top: 0.12rem solid var(--bg-color);
+    border-bottom: 0.12rem solid var(--bg-color); 
+}
+
+.about-us-text {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.about-bold {
+    font-weight: 500;
+}
+
+.about-text1, .about-text2 {
+    margin-bottom: 3rem;
+}
+
+.about-readmore {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.about-us-info, .about-us-text, .about-readmore {
+    font-size: 0.7rem;
+}
+
+.contact-text {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    max-width: 37.5rem;
+    margin: 1.25rem auto;
+    padding: 1.25;
+    border: 0.06rem solid #ccc;
+    background-color: #f9f9f9;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+input[type="contactform-text"] {
+    width: calc(100% - 0.75rem);
+    padding: 0.3rem;
+    margin-bottom: 10px;
+    border: 0.06rem solid #ccc;
+    font-family: var(--font-roboto);
+    font-size: 0.8rem;
+}
+
+textarea {
+    width: calc(100% - 0.75rem);
+    padding: 0.3rem;
+    margin-bottom: 0.6rem;
+    border: 0.06rem solid #ccc;
+    font-family: var(--font-roboto);
+    font-size: 0.8rem;
+}
+
+.contactinfo {
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    line-height: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.contact-bold {
+    font-weight: 500;
+}
+
+.contact-text, .contactinfo {
+    font-size: 0.7rem;
+}
 
  @media screen and (min-width: 992px) {
 
@@ -890,5 +998,44 @@ footer {
         text-transform: uppercase;
         font-size: 1.6rem;
         letter-spacing: 0.2rem;
+    }
+
+    .logo-mountain img {
+        max-width: 15%;
+        height: auto;
+    }
+
+    .about-us-info {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .about-us-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+
+    .about-text1 {
+        margin-right: 10rem;
+    }
+
+    .about-text2 {
+        margin-left: 10rem;
+    }
+
+    .about-readmore {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .about-us-info, .about-us-text, .about-readmore {
+        font-size: 1rem;
+    }
+
+    .contact-text, .contactinfo {
+        font-size: 1rem;
     }
  }
