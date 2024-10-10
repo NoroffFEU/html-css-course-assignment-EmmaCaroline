@@ -1,84 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Customer Service</title>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="src/css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-</head>
-<body>
-  <header>
-    <nav class="top-nav">
-      <a href="index.html">
-        <img src="images/logo/small_logo.png" alt="RainyDays Logo, dark blue-green. Image of a mountain, with the text 'Pushing the comfort zone.'" class="logo" title="Go to Home page">
-      </a>
-      <div class="desk-navpages"> <!-- Hide on mobile -->
-      <ul> 
-        <li><a href="rainjackets.html">Rainjackets</a></li>
-        <li><a href="softshell.html">Softshell Jackets</a></li>
-        <li><a href="sale.html">Sale</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Service</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <a href="index.html">
+          <img
+            src="images/logo/small_logo.png"
+            alt="RainyDays Logo, dark blue-green. Image of a mountain, with the text 'Pushing the comfort zone.'"
+            class="logo"
+            title="Go to Home page"
+          />
+        </a>
+        <div class="desk-navpages">
+          <!-- Hide on mobile -->
+          <ul>
+            <li><a href="rainjackets.html">Rainjackets</a></li>
+            <li><a href="softshell.html">Softshell Jackets</a></li>
+            <li><a href="sale.html">Sale</a></li>
+          </ul>
+        </div>
+        <span class="material-symbols-outlined">
+          <a href="index.html">search</a>
+          <a href="index.html">account_circle</a>
+          <a href="index.html">favorite</a>
+          <a href="checkout.html">shopping_basket</a>
+        </span>
+      </nav>
+      <div class="mobile-navpages">
+        <!-- Hide on desktop -->
+        <ul>
+          <li><a href="rainjackets.html">Rainjackets</a></li>
+          <li><a href="softshell.html">Softshell Jackets</a></li>
+          <li><a href="sale.html">Sale</a></li>
+        </ul>
+      </div>
+      <div class="banner-text">
+        <p>Enrich your outdoor adventures with our high standard jackets</p>
+      </div>
+    </header>
+    <main>
+      <div class="info-part">
+        <p class="info-desk"><a href="index.html">Home</a> / Contact</p>
+        <!-- Hide on mobile-->
+        <h2>Contact us</h2>
+      </div>
+      <div class="contact-text">
+        <p>FQA - Frequently asked questions</p>
+        <p>
+          Did you not find the answer your were looking for? Contact us through
+          this form:
+        </p>
+      </div>
+      <div class="contactform">
+        <form>
+          <input
+            type="contactform-text"
+            id="email"
+            name="email"
+            placeholder="Email"
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Start typing here - max 150 characters"
+            maxlength="150"
+            rows="4"
+          ></textarea>
+        </form>
+        <div class="btn">
+          <button type="button">Submit</button>
+        </div>
+        <div class="contactinfo">
+          <p class="contact-bold">Company information</p>
+          <p>RainyDays</p>
+          <p>Address 000</p>
+          <p>Organisation number: 11111111111</p>
+          <p>Phone Number: 00000000</p>
+          <p>Customer Service hours: (phone)</p>
+          <p>Mon - Fri: 8 AM - 4 PM</p>
+          <p>Email: customerservice@rainydays.com</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul class="footer-nav">
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      </div>
-      <span class="material-symbols-outlined">
-        <a href="index.html">search</a>
-        <a href="index.html">account_circle</a>
-        <a href="index.html">favorite</a>
-        <a href="checkout.html">shopping_basket</a>
-      </span>
-    </nav>
-    <div class="mobile-navpages"> <!-- Hide on desktop -->
-      <ul>
-        <li><a href="rainjackets.html">Rainjackets</a></li>
-        <li><a href="softshell.html">Softshell Jackets</a></li>
-        <li><a href="sale.html">Sale</a></li>
-      </ul>
-    </div>
-    <div class="banner-text">
-      <p>Enrich your outdoor adventures with our high standard jackets</p>
-    </div>
-  </header>
-  <main>
-    <div class="info-part">
-      <p class="info-desk"><a href="index.html">Home</a> / Contact</p> <!-- Hide on mobile-->
-      <h2>Contact us</h2>
-    </div>
-    <div class="contact-text">
-      <p>FQA - Frequently asked questions</p>
-      <p>Did you not find the answer your were looking for? 
-        Contact us through this form:</p>
-    </div>
-    <div class="contactform">
-      <form>
-        <input type="contactform-text" id="email" name="email" placeholder="Email">
-        <textarea id="message" name="message" placeholder="Start typing here - max 150 characters" maxlength="150" rows="4"></textarea>
-      </form>
-      <div class="btn">
-        <button type="button">Submit</button>
-      </div>
-      <div class="contactinfo">
-        <p class="contact-bold">Company information</p>
-        <p>RainyDays</p>
-        <p>Address 000</p>
-        <p>Organisation number: 11111111111</p>
-        <p>Phone Number: 00000000</p>
-        <p>Customer Service hours: (phone)</p>
-        <p>Mon - Fri: 8 AM - 4 PM</p>
-        <p>Email: customerservice@rainydays.com</p>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <ul class="footer-nav">
-      <li><a href="aboutus.html">About Us</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <img class="image" src="images/logo/small_logo-footer.png" alt="RainyDays Logo, white. Image of a mountain, with the text 'Pushing the comfort zone.'">
-  </footer>
-</body>
+      <img
+        class="image"
+        src="images/logo/small_logo-footer.png"
+        alt="RainyDays Logo, white. Image of a mountain, with the text 'Pushing the comfort zone.'"
+      />
+    </footer>
+  </body>
 </html>
