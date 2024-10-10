@@ -1,0 +1,13 @@
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--color-secondary);
+}

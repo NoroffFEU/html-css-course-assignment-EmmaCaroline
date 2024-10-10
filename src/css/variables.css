@@ -1,0 +1,14 @@
+/* Use this file to store your useful variables */
+/* This could be colors, fonts, or padding sizes! */
+
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #FFFFFF;
+  --bg-color: #08211C;
+  --btn-color: #0F6A7A;
+  --logo-color: #0A3641;
+
+  --font-outfit: 'Outfit', Helvetica, sans-serif;
+  --font-roboto: 'Roboto', Arial, sans-serif;
+}
